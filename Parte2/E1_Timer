@@ -1,0 +1,18 @@
+#include <iostream>
+#include <ctime>
+using namespace std;
+
+int main(){
+    unsigned t0, t1;
+
+    t0 = clock(); //medido en tick = cien nanosegundos
+    // Code to execute
+    for (int i=0;i<1000000000;i++);
+    t1 = clock();
+
+    double time = (double(t1-t0)/CLOCKS_PER_SEC); // conversión a segundos
+    cout << "Execution Time: " << time << endl;
+}
+
+// Tiempos obtenidos: 1.556, 1.548, 1.551, 1.562, 1.54, 1.546, 1.556, 1.541, 1.549, 1.545
+// Promedio: 1.55
