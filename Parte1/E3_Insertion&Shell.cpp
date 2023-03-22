@@ -72,3 +72,5 @@ int main() {
     mostrar(edadesIncersion, n);
 
 }
+
+// Shell mejora al algoritmo de inserción al hacer las comparaciones con elementos distantes en lugar de elementos adyacentes
