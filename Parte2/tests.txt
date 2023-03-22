@@ -1,0 +1,5 @@
+MergeSort:
+  Promedio de tiempo: 0.034 s
+  
+QuickSort: 
+  Promedio de tiempo: 
